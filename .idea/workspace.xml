@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03fa5aa5-9cbc-42d8-97b5-d105488b9fde" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/37/a9/68442c22648ceb4a16069820cc5350b97e50f45f26c5442d7c036ad743d2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/news.twig" afterPath="$PROJECT_DIR$/templates/news.twig" />
     </list>
     <ignored path="twig.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.twig" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="footer.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/subtemplates/footer.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="18" selection-start="1697" selection-end="1697" vertical-scroll-proportion="0.8472851" vertical-offset="76" max-vertical-offset="960">
+            <state line="34" column="31" selection-start="1079" selection-end="1079" vertical-scroll-proportion="-18.083334" vertical-offset="76" max-vertical-offset="960">
               <folding>
                 <element signature="n#style#0;n#div#3;n#div#3;n#!!top" expanded="true" />
               </folding>
@@ -80,7 +77,25 @@
       <file leaf-file-name="news.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/news.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="334" selection-end="334" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="420">
+            <state line="15" column="4" selection-start="200" selection-end="240" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="450">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article.twig" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/subtemplates/article.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="0" selection-start="1558" selection-end="1558" vertical-scroll-proportion="0.7794118" vertical-offset="241" max-vertical-offset="1125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="associated_articles.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/subtemplates/associated_articles.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
               <folding />
             </state>
           </provider>
@@ -109,8 +124,10 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/templates/subtemplates/header.twig" />
         <option value="$PROJECT_DIR$/templates/subtemplates/head.twig" />
-        <option value="$PROJECT_DIR$/templates/news.twig" />
         <option value="$PROJECT_DIR$/templates/subtemplates/footer.twig" />
+        <option value="$PROJECT_DIR$/templates/news.twig" />
+        <option value="$PROJECT_DIR$/templates/subtemplates/associated_articles.twig" />
+        <option value="$PROJECT_DIR$/templates/subtemplates/article.twig" />
       </list>
     </option>
   </component>
@@ -314,19 +331,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/subtemplates/footer.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="31" selection-start="1079" selection-end="1079" vertical-scroll-proportion="-18.083334" vertical-offset="76" max-vertical-offset="960">
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#3;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/news.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="334" selection-end="334" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="420">
+        <state line="15" column="4" selection-start="200" selection-end="240" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="450">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/subtemplates/footer.twig">
+    <entry file="file://$PROJECT_DIR$/templates/subtemplates/associated_articles.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="18" selection-start="1697" selection-end="1697" vertical-scroll-proportion="0.8472851" vertical-offset="76" max-vertical-offset="960">
-          <folding>
-            <element signature="n#style#0;n#div#3;n#div#3;n#!!top" expanded="true" />
-          </folding>
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/subtemplates/article.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="0" selection-start="1558" selection-end="1558" vertical-scroll-proportion="0.7794118" vertical-offset="241" max-vertical-offset="1125">
+          <folding />
         </state>
       </provider>
     </entry>
