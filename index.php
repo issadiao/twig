@@ -26,6 +26,8 @@ $section = $section[1] . '.twig';
 
 echo $section;
 
+print_r($variables);
+
 echo $twig->render($section, $variables);
 
 ?>
