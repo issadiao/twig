@@ -27,7 +27,7 @@ function thr_twig_get_variables($url, $section) {
         "byline" => $page->article->byline,
         "associated_articles" => get_object_vars($page->associated_articles),
         "prevnext" => $page->prevnext,
-        "meta_tags" => $page->meta->tags,
+        "meta_tags" => get_object_vars($page->meta->tags),
         "taxonomy" => $page->meta->taxonomy,
       );
       break;
