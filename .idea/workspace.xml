@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03fa5aa5-9cbc-42d8-97b5-d105488b9fde" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/news.twig" afterPath="$PROJECT_DIR$/templates/news.twig" />
     </list>
     <ignored path="twig.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="522" selection-end="522" vertical-scroll-proportion="0.40816328" vertical-offset="0" max-vertical-offset="882">
+            <state line="24" column="0" selection-start="522" selection-end="522" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
@@ -83,10 +83,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news.twig" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="news.twig" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/news.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="18" selection-start="403" selection-end="403" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="450">
+            <state line="22" column="7" selection-start="465" selection-end="465" vertical-scroll-proportion="0.37414965" vertical-offset="0" max-vertical-offset="882">
               <folding />
             </state>
           </provider>
@@ -95,7 +95,7 @@
       <file leaf-file-name="article.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/subtemplates/article.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="50" selection-start="856" selection-end="856" vertical-scroll-proportion="10.75" vertical-offset="708" max-vertical-offset="1590">
+            <state line="30" column="50" selection-start="856" selection-end="856" vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="1590">
               <folding />
             </state>
           </provider>
@@ -125,11 +125,11 @@
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/templates/subtemplates/header.twig" />
         <option value="$PROJECT_DIR$/templates/subtemplates/footer.twig" />
-        <option value="$PROJECT_DIR$/templates/news.twig" />
         <option value="$PROJECT_DIR$/templates/subtemplates/head.twig" />
         <option value="$PROJECT_DIR$/templates/subtemplates/article.twig" />
         <option value="$PROJECT_DIR$/functions.inc" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/templates/news.twig" />
       </list>
     </option>
   </component>
@@ -319,13 +319,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/news.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="18" selection-start="403" selection-end="403" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/subtemplates/header.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="92" selection-start="1195" selection-end="1195" vertical-scroll-proportion="-18.083334" vertical-offset="91" max-vertical-offset="975">
@@ -342,13 +335,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/subtemplates/article.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="50" selection-start="856" selection-end="856" vertical-scroll-proportion="10.75" vertical-offset="708" max-vertical-offset="1590">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions.inc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="55" selection-start="1015" selection-end="1015" vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="705">
@@ -358,7 +344,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="522" selection-end="522" vertical-scroll-proportion="0.40816328" vertical-offset="0" max-vertical-offset="882">
+        <state line="24" column="0" selection-start="522" selection-end="522" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/subtemplates/article.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="50" selection-start="856" selection-end="856" vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="1590">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/news.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="7" selection-start="465" selection-end="465" vertical-scroll-proportion="0.37414965" vertical-offset="0" max-vertical-offset="882">
           <folding />
         </state>
       </provider>
