@@ -1,18 +1,18 @@
 <div class="container visible-lg visible-md">
 
     <div class="col-md-6 prev">
-        <a href="/">
+        <a href="{{ prevnext.prev.link }}">
         <span class="pull-left">
         <img src="/assets/arrow-prev.png"></span>
             <div class="titles">
-                <b>PREVIOUS ARTICLE</b><br>title goes here
+                <b>PREVIOUS ARTICLE</b><br>{{ prevnext.prev.title }}
             </div>
         </a></div>
 
     <div class="col-md-6 next">
-        <a href="/">
+        <a href="{{ prevnext.next.link }}">
             <div class="pull-left titles">
-                <b>NEXT ARTICLE</b><br>title goes here
+                <b>NEXT ARTICLE</b><br>{{ prevnext.next.title }}
             </div>
             <div class="pull-right"><img src="/assets/arrow-next.png"></div>
         </a></div>
@@ -41,15 +41,15 @@
     <div class="col-sm-12 col-md-6">
 
         <div>
-            <img class="img-responsive" width="635" src="http://www.hollywoodreporter.com/sites/default/files/imagecache/thumbnail_570x321/2014/05/zack_snyder_ben_affleck_as_batman.jpg" />
-            CAPTION HERE
+            <img class="img-responsive" width="635" src="http://www.hollywoodreporter.com/{{ image }}" />
+            {{ caption|raw }}
         </div>
 
-        <div><h3>Deck</h3></div>
+        <div><h3>{{ deck|raw }}</h3></div>
 
-        <div><p>byline</p></div>
+        <div><p>{{ byline|raw }}</p></div>
 
-        <div>this is where the actual article body goes</div>
+        <div>{{ body|raw }}</div>
 
     </div>
 
@@ -60,6 +60,14 @@
         </div>
 
         <div>
+
+            <BR><BR>
+            {% for values in associated_articles %}
+
+                {{ values.title }}<br><BR>
+
+            {% endfor %}
+
 
         </div>
 
