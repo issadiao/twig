@@ -1,9 +1,13 @@
 <?php
 
+echo "hello ";
+
 require_once 'lib/Twig/Autoloader.php';
 require_once 'functions.inc';
 
 Twig_Autoloader::register();
+
+echo "world.";
 
 $loader = new Twig_Loader_Filesystem('templates');
 $twig = new Twig_Environment($loader, array(
@@ -19,6 +23,8 @@ $section = explode("/", $url[0]);
 $variables = thr_twig_get_variables($url[0], $section[1]);
 
 $section = $section[1] . '.twig';
+
+echo $section;
 
 echo $twig->render($section, $variables);
 
