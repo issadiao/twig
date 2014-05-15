@@ -23,7 +23,16 @@
 
 <div class="container">
     <div class="col-xs-12">
-        <div>taxonomy links</div>
+        <div>
+
+            {% for links in taxonomy_links %}
+
+
+                <a class="tax" href="{{ links.link }}">{{ links.term }}</a>
+
+            {% endfor %}
+
+        </div>
     </div>
     <div class="col-xs-12">
         <div><h1><h1>{{ title }}</h1></h1></div>
@@ -59,17 +68,30 @@
             <img src="/assets/placeholder-ad.png">
         </div>
 
-        <div>
+            <div class="recommended_articles"><div class="ra-header">Featured:</div>
 
-            <BR><BR>
             {% for values in associated_articles %}
 
-                {{ values.title }}<br><BR>
+                <div class="module_wrap">
+                    <div class="media">
+                        <a href="{{ values.link }}">
+                            <img src='{{ values.filepath }}' alt='{{ values.title }}' />
+                        </a>
+                    </div>
+                    <div class="text">
+                        <div class="outer">
+                            <div class="inner">
+                                <a href="{{ values.link }}">{{ values.title }}
+                                    <img class="redarr" src="http://www.hollywoodreporter.com/sites/all/themes/thr/images/elements/icon_red_darrow.png" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             {% endfor %}
 
-
-        </div>
+            </div>
 
         <div class="text-center"><a href="#" class="btn btn-danger btn-large">View More</a></div>
 

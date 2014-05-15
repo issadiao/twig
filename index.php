@@ -9,9 +9,9 @@ Twig_Autoloader::register();
 $loader = new Twig_Loader_Filesystem('templates');
 $twig = new Twig_Environment($loader, array(
  // 'cache' => 'cache',
- // "debug" => TRUE,
+  "debug" => TRUE,
 ));
-// $twig->addExtension(new Twig_Extension_Debug());
+ $twig->addExtension(new Twig_Extension_Debug());
 
 $url = explode("?", $_SERVER['REQUEST_URI']);
 
@@ -23,4 +23,6 @@ $section = $section[1] . '.twig';
 
 echo $twig->render($section, $variables);
 
+
+print_r($variables['taxonomy']);
 ?>

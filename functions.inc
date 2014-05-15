@@ -5,7 +5,7 @@ function thr_twig_get_variables($url, $section) {
   $url = "http://qa.hollywoodreporter.com/thr-api" . $url;
 
   // Access Unpublished Content if on editor-only server
-  if ($_SERVER['SERVER_ADDR'] == "1.2.3.4") {
+  if ($_SERVER['SERVER_ADDR'] == "1.2.3.4.5.6.7.8.9.0") {
     $url = "http://qa.hollywoodreporter.com/editor-api" . $url . "?token=faslht5alerigq234ihtgrqoihiht143";
   }
 
@@ -27,8 +27,8 @@ function thr_twig_get_variables($url, $section) {
         "byline" => $page->article->byline,
         "associated_articles" => get_object_vars($page->associated_articles),
         "prevnext" => $page->prevnext,
-        "meta_tags" => get_object_vars($page->meta->tags),
-        "taxonomy" => $page->meta->taxonomy,
+        "meta_tags" => $page->meta->tags,
+        "taxonomy_links" => $page->meta->taxonomy_links,
       );
       break;
 
@@ -37,5 +37,6 @@ function thr_twig_get_variables($url, $section) {
   return $variables;
 
 }
+
 
 ?>
