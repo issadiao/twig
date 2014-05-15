@@ -13,11 +13,15 @@ $twig = new Twig_Environment($loader, array(
 $twig->addExtension(new Twig_Extension_Debug());
 
 $url = explode("?", $_SERVER['REQUEST_URI']);
+
+echo "url= " . $url[0];
 $section = explode("/", $url[0]);
 
 $variables = thr_twig_get_variables($url[0], $section[1]);
 
 $section = $section[1] . '.twig';
+
+echo "<br><br>" . $section;
 
 echo $twig->render($section, $variables);
 
