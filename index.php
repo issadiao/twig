@@ -19,6 +19,8 @@ $section = explode("/", $url[0]);
 
 $variables = thr_twig_get_variables($url[0], $section[1]);
 
+print_r($variables);
+
 $section = $section[1] . '.twig';
 
 echo "<br><br>" . $section;
