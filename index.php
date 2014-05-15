@@ -1,8 +1,8 @@
 <?php
-
+echo "hello";
 require_once 'lib/Twig/Autoloader.php';
 require_once 'functions.inc';
-
+echo "world";
 Twig_Autoloader::register();
 
 $loader = new Twig_Loader_Filesystem('templates');
