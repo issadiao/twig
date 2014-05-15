@@ -23,6 +23,4 @@ $section = $section[1] . '.twig';
 
 echo $twig->render($section, $variables);
 
-
-print_r($variables['taxonomy']);
 ?>
