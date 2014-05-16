@@ -8,7 +8,7 @@ Twig_Autoloader::register();
 
 $loader = new Twig_Loader_Filesystem('templates');
 $twig = new Twig_Environment($loader, array(
- // 'cache' => 'cache',
+  'cache' => 'cache',
   "debug" => TRUE,
 ));
  $twig->addExtension(new Twig_Extension_Debug());
@@ -19,7 +19,9 @@ $section = explode("/", $url[0]);
 
 $variables = thr_twig_get_variables($url[0], $section[1]);
 
-$section = $section[1] . '.twig';
+$num = rand(1, 2);
+
+$section = $section[1] . $num . '.twig';
 
 echo $twig->render($section, $variables);
 

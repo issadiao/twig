@@ -27,7 +27,6 @@
 
             {% for links in taxonomy_links %}
 
-
                 <a class="tax" href="{{ links.link }}">{{ links.term }}</a>
 
             {% endfor %}
@@ -60,7 +59,41 @@
 
         <div>{{ body|raw }}</div>
 
-    </div>
+        {# GRAVITY Recommended For You block #}
+        <div id="grv-personalization-13"></div>
+        <script type="text/javascript">
+        //<![CDATA[
+        (function(){
+            window.gravityInsightsParams = {
+                "type": "content",
+                "action": "",
+                "site_guid": "01b0b9ad501e0c849a822e6124ff0fc2"
+            };
+            var adServerReq,bUrl,doUseGravityUserGuid,includeJs,jq,type,ug,wlPrefix,wlUrl,_ref,_ref1,_ref2;includeJs=function(a){var b;b=document.createElement("script");b.async=!0;b.src=a;a=document.getElementsByTagName("script")[0];return a.parentNode.insertBefore(b,a)};bUrl="";ug=(doUseGravityUserGuid=!0===gravityInsightsParams.useGravityUserGuid?1:0)?"":gravityInsightsParams.user_guid||(null!=(_ref=/grvinsights=([^;]+)/.exec(document.cookie))?_ref[1]:void 0)||"";
+            wlUrl=(wlPrefix="http://rma-api.gravity.com/v1/api/intelligence",jq=(null!=(_ref1=window.jQuery)?null!=(_ref2=_ref1.fn)?_ref2.jquery:void 0:void 0)||"",type="iframe",adServerReq=gravityInsightsParams.ad||"",""+wlPrefix+"/wl?jq="+jq+"&sg="+gravityInsightsParams.site_guid+"&ug="+ug+"&ugug="+doUseGravityUserGuid+"&id=grv-personalization-13&pl=13"+("&type="+type+"&ad="+adServerReq+"&x="+(new Date).getTime())+("undefined"!==typeof forceArticleIds&&null!==forceArticleIds&&forceArticleIds.join?"&ai="+forceArticleIds.join(","):
+                    "")+("undefined"!==typeof apids&&null!==apids&&""!==apids?"&apids="+encodeURIComponent(apids):""));bUrl&&includeJs(bUrl);wlUrl&&(window.gravityInsightsParams.sidebar&&(window.gravityInsightsParams.wlStartTime=(new Date).getTime()),includeJs(wlUrl));})();
+        //]]>
+    </script>
+        {# END Gravity Recommended For You Block #}
+
+        {# Gravity THR Daily Must Feed #}
+        <div id="grv-personalization-27"></div>
+    <script type='text/javascript'>
+        //<![CDATA[
+        (function(){
+            window.gravityInsightsParams = {
+                'type': 'content',
+                'action': '',
+                'site_guid': '01b0b9ad501e0c849a822e6124ff0fc2'
+            };
+            var adServerReq,bUrl,doUseGravityUserGuid,includeJs,jq,type,ug,wlPrefix,wlUrl,_ref,_ref1,_ref2;includeJs=function(a){var b;b=document.createElement("script");b.async=!0;b.src=a;a=document.getElementsByTagName("script")[0];return a.parentNode.insertBefore(b,a)};bUrl="";ug=(doUseGravityUserGuid=!0===gravityInsightsParams.useGravityUserGuid?1:0)?"":gravityInsightsParams.user_guid||(null!=(_ref=/grvinsights=([^;]+)/.exec(document.cookie))?_ref[1]:void 0)||"";
+            wlUrl=(wlPrefix="http://rma-api.gravity.com/v1/api/intelligence",jq=(null!=(_ref1=window.jQuery)?null!=(_ref2=_ref1.fn)?_ref2.jquery:void 0:void 0)||"",type="iframe",adServerReq=gravityInsightsParams.ad||"",""+wlPrefix+"/wl?jq="+jq+"&sg="+gravityInsightsParams.site_guid+"&ug="+ug+"&ugug="+doUseGravityUserGuid+"&id=grv-personalization-27&pl=27"+("&type="+type+"&ad="+adServerReq+"&x="+(new Date).getTime())+("undefined"!==typeof forceArticleIds&&null!==forceArticleIds&&forceArticleIds.join?"&ai="+forceArticleIds.join(","):
+                    "")+("undefined"!==typeof apids&&null!==apids&&""!==apids?"&apids="+encodeURIComponent(apids):""));bUrl&&includeJs(bUrl);wlUrl&&(window.gravityInsightsParams.sidebar&&(window.gravityInsightsParams.wlStartTime=(new Date).getTime()),includeJs(wlUrl));})();
+        //]]>
+    </script>
+        {# END Gravity THR Daily Must Feed #}
+
+</div>
 
     <div class="col-sm-4 visible-lg visible-md pull-right">
 
@@ -68,7 +101,11 @@
             <img src="/assets/placeholder-ad.png">
         </div>
 
-            <div class="recommended_articles"><div class="ra-header">Featured:</div>
+            <div class="recommended_articles">
+
+        {% if associated_articles %}
+
+                <div class="ra-header">Featured:</div>
 
             {% for values in associated_articles %}
 
@@ -91,9 +128,28 @@
 
             {% endfor %}
 
-            </div>
+        {% else %}
 
-        <div class="text-center"><a href="#" class="btn btn-danger btn-large">View More</a></div>
+            {# GRAVITY Most Popular Block #}
+            <div id="grv-personalization-18"></div>
+            <script type="text/javascript">
+                //<![CDATA[
+                (function(){
+                    window.gravityInsightsParams = {
+                        "type": "content",
+                        "action": "",
+                        "site_guid": "01b0b9ad501e0c849a822e6124ff0fc2"
+                    };
+                    var adServerReq,bUrl,doUseGravityUserGuid,includeJs,jq,type,ug,wlPrefix,wlUrl,_ref,_ref1,_ref2;includeJs=function(a){var b;b=document.createElement("script");b.async=!0;b.src=a;a=document.getElementsByTagName("script")[0];return a.parentNode.insertBefore(b,a)};bUrl="";ug=(doUseGravityUserGuid=!0===gravityInsightsParams.useGravityUserGuid?1:0)?"":gravityInsightsParams.user_guid||(null!=(_ref=/grvinsights=([^;]+)/.exec(document.cookie))?_ref[1]:void 0)||"";
+                    wlUrl=(wlPrefix="http://rma-api.gravity.com/v1/api/intelligence",jq=(null!=(_ref1=window.jQuery)?null!=(_ref2=_ref1.fn)?_ref2.jquery:void 0:void 0)||"",type="iframe",adServerReq=gravityInsightsParams.ad||"",""+wlPrefix+"/wl?jq="+jq+"&sg="+gravityInsightsParams.site_guid+"&ug="+ug+"&ugug="+doUseGravityUserGuid+"&id=grv-personalization-18&pl=18"+("&type="+type+"&ad="+adServerReq+"&x="+(new Date).getTime())+("undefined"!==typeof forceArticleIds&&null!==forceArticleIds&&forceArticleIds.join?"&ai="+forceArticleIds.join(","):
+                            "")+("undefined"!==typeof apids&&null!==apids&&""!==apids?"&apids="+encodeURIComponent(apids):""));bUrl&&includeJs(bUrl);wlUrl&&(window.gravityInsightsParams.sidebar&&(window.gravityInsightsParams.wlStartTime=(new Date).getTime()),includeJs(wlUrl));})();
+                //]]>
+            </script>
+            {# END GRAVITY Most Popular Block #}
+
+        {% endif %}
+
+            </div>
 
     </div>
 
