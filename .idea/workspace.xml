@@ -4,9 +4,6 @@
     <list default="true" id="03fa5aa5-9cbc-42d8-97b5-d105488b9fde" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/fc/1d/0ff7cf9ae2fd6e17ec3de0ecc6173bd34462f0f78a93ee249bd0f70e5b9a.php" afterPath="$PROJECT_DIR$/cache/fc/1d/0ff7cf9ae2fd6e17ec3de0ecc6173bd34462f0f78a93ee249bd0f70e5b9a.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/subtemplates/article.twig" afterPath="$PROJECT_DIR$/templates/subtemplates/article.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.inc" afterPath="$PROJECT_DIR$/functions.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="twig.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -116,7 +113,7 @@
       <file leaf-file-name="article.twig" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/subtemplates/article.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="83" selection-start="2082" selection-end="2082" vertical-scroll-proportion="0.4649022" vertical-offset="706" max-vertical-offset="3555">
+            <state line="174" column="12" selection-start="7525" selection-end="7525" vertical-scroll-proportion="0.3095512" vertical-offset="2341" max-vertical-offset="3810">
               <folding />
             </state>
           </provider>
@@ -436,7 +433,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/subtemplates/article.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="83" selection-start="2082" selection-end="2082" vertical-scroll-proportion="0.4649022" vertical-offset="706" max-vertical-offset="3555">
+        <state line="174" column="12" selection-start="7525" selection-end="7525" vertical-scroll-proportion="0.3095512" vertical-offset="2341" max-vertical-offset="3810">
           <folding />
         </state>
       </provider>

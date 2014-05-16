@@ -307,7 +307,7 @@ class __TwigTemplate_fc1d0ff7cf9ae2fd6e17ec3de0ecc6173bd34462f0f78a93ee249bd0f70
             echo "
             ";
             // line 175
-            echo "            <div id=\"grv-personalization-18\"></div>
+            echo "            gravity<div id=\"grv-personalization-24\"></div>
             <script type=\"text/javascript\">
                 //<![CDATA[
                 (function(){
@@ -317,7 +317,7 @@ class __TwigTemplate_fc1d0ff7cf9ae2fd6e17ec3de0ecc6173bd34462f0f78a93ee249bd0f70
                         \"site_guid\": \"01b0b9ad501e0c849a822e6124ff0fc2\"
                     };
                     var adServerReq,bUrl,doUseGravityUserGuid,includeJs,jq,type,ug,wlPrefix,wlUrl,_ref,_ref1,_ref2;includeJs=function(a){var b;b=document.createElement(\"script\");b.async=!0;b.src=a;a=document.getElementsByTagName(\"script\")[0];return a.parentNode.insertBefore(b,a)};bUrl=\"\";ug=(doUseGravityUserGuid=!0===gravityInsightsParams.useGravityUserGuid?1:0)?\"\":gravityInsightsParams.user_guid||(null!=(_ref=/grvinsights=([^;]+)/.exec(document.cookie))?_ref[1]:void 0)||\"\";
-                    wlUrl=(wlPrefix=\"http://rma-api.gravity.com/v1/api/intelligence\",jq=(null!=(_ref1=window.jQuery)?null!=(_ref2=_ref1.fn)?_ref2.jquery:void 0:void 0)||\"\",type=\"iframe\",adServerReq=gravityInsightsParams.ad||\"\",\"\"+wlPrefix+\"/wl?jq=\"+jq+\"&sg=\"+gravityInsightsParams.site_guid+\"&ug=\"+ug+\"&ugug=\"+doUseGravityUserGuid+\"&id=grv-personalization-18&pl=18\"+(\"&type=\"+type+\"&ad=\"+adServerReq+\"&x=\"+(new Date).getTime())+(\"undefined\"!==typeof forceArticleIds&&null!==forceArticleIds&&forceArticleIds.join?\"&ai=\"+forceArticleIds.join(\",\"):
+                    wlUrl=(wlPrefix=\"http://rma-api.gravity.com/v1/api/intelligence\",jq=(null!=(_ref1=window.jQuery)?null!=(_ref2=_ref1.fn)?_ref2.jquery:void 0:void 0)||\"\",type=\"iframe\",adServerReq=gravityInsightsParams.ad||\"\",\"\"+wlPrefix+\"/wl?jq=\"+jq+\"&sg=\"+gravityInsightsParams.site_guid+\"&ug=\"+ug+\"&ugug=\"+doUseGravityUserGuid+\"&id=grv-personalization-24&pl=24\"+(\"&type=\"+type+\"&ad=\"+adServerReq+\"&x=\"+(new Date).getTime())+(\"undefined\"!==typeof forceArticleIds&&null!==forceArticleIds&&forceArticleIds.join?\"&ai=\"+forceArticleIds.join(\",\"):
                             \"\")+(\"undefined\"!==typeof apids&&null!==apids&&\"\"!==apids?\"&apids=\"+encodeURIComponent(apids):\"\"));bUrl&&includeJs(bUrl);wlUrl&&(window.gravityInsightsParams.sidebar&&(window.gravityInsightsParams.wlStartTime=(new Date).getTime()),includeJs(wlUrl));})();
                 //]]>
             </script>
@@ -332,6 +332,25 @@ class __TwigTemplate_fc1d0ff7cf9ae2fd6e17ec3de0ecc6173bd34462f0f78a93ee249bd0f70
 
         ";
         // line 196
+        echo "        <div id=\"grv-personalization-18\"></div>
+        <script type=\"text/javascript\">
+            //<![CDATA[
+            (function(){
+                window.gravityInsightsParams = {
+                    \"type\": \"content\",
+                    \"action\": \"\",
+                    \"site_guid\": \"01b0b9ad501e0c849a822e6124ff0fc2\"
+                };
+                var adServerReq,bUrl,doUseGravityUserGuid,includeJs,jq,type,ug,wlPrefix,wlUrl,_ref,_ref1,_ref2;includeJs=function(a){var b;b=document.createElement(\"script\");b.async=!0;b.src=a;a=document.getElementsByTagName(\"script\")[0];return a.parentNode.insertBefore(b,a)};bUrl=\"\";ug=(doUseGravityUserGuid=!0===gravityInsightsParams.useGravityUserGuid?1:0)?\"\":gravityInsightsParams.user_guid||(null!=(_ref=/grvinsights=([^;]+)/.exec(document.cookie))?_ref[1]:void 0)||\"\";
+                wlUrl=(wlPrefix=\"http://rma-api.gravity.com/v1/api/intelligence\",jq=(null!=(_ref1=window.jQuery)?null!=(_ref2=_ref1.fn)?_ref2.jquery:void 0:void 0)||\"\",type=\"iframe\",adServerReq=gravityInsightsParams.ad||\"\",\"\"+wlPrefix+\"/wl?jq=\"+jq+\"&sg=\"+gravityInsightsParams.site_guid+\"&ug=\"+ug+\"&ugug=\"+doUseGravityUserGuid+\"&id=grv-personalization-18&pl=18\"+(\"&type=\"+type+\"&ad=\"+adServerReq+\"&x=\"+(new Date).getTime())+(\"undefined\"!==typeof forceArticleIds&&null!==forceArticleIds&&forceArticleIds.join?\"&ai=\"+forceArticleIds.join(\",\"):
+                        \"\")+(\"undefined\"!==typeof apids&&null!==apids&&\"\"!==apids?\"&apids=\"+encodeURIComponent(apids):\"\"));bUrl&&includeJs(bUrl);wlUrl&&(window.gravityInsightsParams.sidebar&&(window.gravityInsightsParams.wlStartTime=(new Date).getTime()),includeJs(wlUrl));})();
+            //]]>
+        </script>
+        ";
+        // line 211
+        echo "
+        ";
+        // line 213
         echo "        <div id=\"grv-personalization-23\"></div>
         <script type=\"text/javascript\">
             //<![CDATA[
@@ -347,10 +366,10 @@ class __TwigTemplate_fc1d0ff7cf9ae2fd6e17ec3de0ecc6173bd34462f0f78a93ee249bd0f70
             //]]>
         </script>
         ";
-        // line 211
+        // line 228
         echo "
         ";
-        // line 213
+        // line 230
         echo "        <div id=\"grv-personalization-19\"></div>
         <script type=\"text/javascript\">
             //<![CDATA[
@@ -366,7 +385,7 @@ class __TwigTemplate_fc1d0ff7cf9ae2fd6e17ec3de0ecc6173bd34462f0f78a93ee249bd0f70
             //]]>
         </script>
         ";
-        // line 228
+        // line 245
         echo "
     </div>
 
@@ -386,6 +405,6 @@ class __TwigTemplate_fc1d0ff7cf9ae2fd6e17ec3de0ecc6173bd34462f0f78a93ee249bd0f70
 
     public function getDebugInfo()
     {
-        return array (  370 => 228,  354 => 213,  351 => 211,  335 => 196,  330 => 192,  326 => 190,  310 => 175,  307 => 173,  303 => 171,  286 => 162,  275 => 156,  271 => 155,  266 => 152,  262 => 151,  257 => 148,  255 => 147,  242 => 136,  226 => 121,  223 => 119,  207 => 104,  202 => 100,  196 => 96,  184 => 89,  175 => 86,  171 => 85,  167 => 83,  163 => 82,  151 => 75,  147 => 74,  138 => 67,  134 => 66,  129 => 63,  127 => 62,  122 => 60,  117 => 58,  112 => 56,  106 => 53,  102 => 52,  84 => 37,  78 => 33,  67 => 30,  64 => 29,  60 => 28,  44 => 15,  39 => 13,  31 => 8,  24 => 4,  19 => 1,);
+        return array (  389 => 245,  373 => 230,  370 => 228,  354 => 213,  351 => 211,  335 => 196,  330 => 192,  326 => 190,  310 => 175,  307 => 173,  303 => 171,  286 => 162,  275 => 156,  271 => 155,  266 => 152,  262 => 151,  257 => 148,  255 => 147,  242 => 136,  226 => 121,  223 => 119,  207 => 104,  202 => 100,  196 => 96,  184 => 89,  175 => 86,  171 => 85,  167 => 83,  163 => 82,  151 => 75,  147 => 74,  138 => 67,  134 => 66,  129 => 63,  127 => 62,  122 => 60,  117 => 58,  112 => 56,  106 => 53,  102 => 52,  84 => 37,  78 => 33,  67 => 30,  64 => 29,  60 => 28,  44 => 15,  39 => 13,  31 => 8,  24 => 4,  19 => 1,);
     }
 }
