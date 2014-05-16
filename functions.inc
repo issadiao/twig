@@ -26,6 +26,7 @@ function thr_twig_get_variables($url, $section) {
         "author" => $page->article->author,
         "byline" => $page->article->byline,
         "associated_articles" => get_object_vars($page->associated_articles),
+        "related_photo_galleries" => get_object_vars($page->related_photo_galleries),
         "prevnext" => $page->prevnext,
         "meta_tags" => $page->meta->tags,
         "taxonomy_links" => $page->meta->taxonomy_links,

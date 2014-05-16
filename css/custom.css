@@ -1,3 +1,13 @@
+a {
+    color: #e11a1f;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e11a1f;
+    text-decoration: underline;
+}
+
 .recommended_articles {
     margin-top:40px;
 }
@@ -96,4 +106,28 @@
     position: fixed;
     right: 10px;
     top: 90px;
+}
+
+#related-photo-galleries .images {
+    width: 580px;
+    height: 182px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+#related-photo-galleries .call-to-action {
+    border-left: 1px solid #E11A1F;
+    background: url("http://www.hollywoodreporter.com/sites/all/themes/thr/images/elements/icons/photo.png") no-repeat scroll 6px 0 transparent;
+    padding-left: 26px;
+    padding-top: 1px;
+    float: right;
+}
+
+#related-photo-galleries .thr-subtitle-left {
+    border-bottom: none;
+    color: #000;
+    font-size: 21px;
+    font-family: Helvetica,sans-serif;
+    font-weight: normal;
+    padding-bottom: 2px;
 }

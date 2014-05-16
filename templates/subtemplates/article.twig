@@ -59,6 +59,47 @@
 
         <div>{{ body|raw }}</div>
 
+        {% if related_photo_galleries %}
+
+        <div id="related-photo-galleries">
+
+            {% for gallery in related_photo_galleries %}
+
+            <div class="gallery ">
+
+                <h2 class="thr-subtitle thr-subtitle-left">
+                    <em>Photo <span>Gallery</span>  </em>
+                </h2>
+                <div class="links ">
+                    <a class="call-to-action call-to-action-gallery" href="{{ gallery.link }}">View Gallery</a>
+                    <a class="main-link" href="{{ gallery.link }}">{{ gallery.title }}</a>
+                </div>
+
+                <div class="images clearfix">
+
+                    <div class="inner">
+
+                    {% for image in gallery.images %}
+
+
+                        <a class="img-holder " href="{{  image.link }}">
+                            <img src="{{ image.src }}" class="imagecache imagecache-related_photogallery_182_height"/>                                                                                            </a>
+
+                    {% endfor %}
+
+                    </div><!-- close .inner -->
+
+                </div><!-- close .images -->
+            </div><!-- close .gallery -->
+
+            {% endfor %}
+
+        </div><!-- close #related-photo-galleries -->
+
+        {% endif %}
+
+
+
         {# GRAVITY Recommended For You block #}
         <div id="grv-personalization-13"></div>
         <script type="text/javascript">

@@ -123,7 +123,87 @@ class __TwigTemplate_fc1d0ff7cf9ae2fd6e17ec3de0ecc6173bd34462f0f78a93ee249bd0f70
         echo "</div>
 
         ";
-        // line 63
+        // line 62
+        if ((isset($context["related_photo_galleries"]) ? $context["related_photo_galleries"] : null)) {
+            // line 63
+            echo "
+        <div id=\"related-photo-galleries\">
+
+            ";
+            // line 66
+            $context['_parent'] = (array) $context;
+            $context['_seq'] = twig_ensure_traversable((isset($context["related_photo_galleries"]) ? $context["related_photo_galleries"] : null));
+            foreach ($context['_seq'] as $context["_key"] => $context["gallery"]) {
+                // line 67
+                echo "
+            <div class=\"gallery \">
+
+                <h2 class=\"thr-subtitle thr-subtitle-left\">
+                    <em>Photo <span>Gallery</span>  </em>
+                </h2>
+                <div class=\"links \">
+                    <a class=\"call-to-action call-to-action-gallery\" href=\"";
+                // line 74
+                echo twig_escape_filter($this->env, $this->getAttribute((isset($context["gallery"]) ? $context["gallery"] : null), "link"), "html", null, true);
+                echo "\">View Gallery</a>
+                    <a class=\"main-link\" href=\"";
+                // line 75
+                echo twig_escape_filter($this->env, $this->getAttribute((isset($context["gallery"]) ? $context["gallery"] : null), "link"), "html", null, true);
+                echo "\">";
+                echo twig_escape_filter($this->env, $this->getAttribute((isset($context["gallery"]) ? $context["gallery"] : null), "title"), "html", null, true);
+                echo "</a>
+                </div>
+
+                <div class=\"images clearfix\">
+
+                    <div class=\"inner\">
+
+                    ";
+                // line 82
+                $context['_parent'] = (array) $context;
+                $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["gallery"]) ? $context["gallery"] : null), "images"));
+                foreach ($context['_seq'] as $context["_key"] => $context["image"]) {
+                    // line 83
+                    echo "
+
+                        <a class=\"img-holder \" href=\"";
+                    // line 85
+                    echo twig_escape_filter($this->env, $this->getAttribute((isset($context["image"]) ? $context["image"] : null), "link"), "html", null, true);
+                    echo "\">
+                            <img src=\"";
+                    // line 86
+                    echo twig_escape_filter($this->env, $this->getAttribute((isset($context["image"]) ? $context["image"] : null), "src"), "html", null, true);
+                    echo "\" class=\"imagecache imagecache-related_photogallery_182_height\"/>                                                                                            </a>
+
+                    ";
+                }
+                $_parent = $context['_parent'];
+                unset($context['_seq'], $context['_iterated'], $context['_key'], $context['image'], $context['_parent'], $context['loop']);
+                $context = array_intersect_key($context, $_parent) + $_parent;
+                // line 89
+                echo "
+                    </div><!-- close .inner -->
+
+                </div><!-- close .images -->
+            </div><!-- close .gallery -->
+
+            ";
+            }
+            $_parent = $context['_parent'];
+            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['gallery'], $context['_parent'], $context['loop']);
+            $context = array_intersect_key($context, $_parent) + $_parent;
+            // line 96
+            echo "
+        </div><!-- close #related-photo-galleries -->
+
+        ";
+        }
+        // line 100
+        echo "
+
+
+        ";
+        // line 104
         echo "        <div id=\"grv-personalization-13\"></div>
         <script type=\"text/javascript\">
         //<![CDATA[
@@ -139,10 +219,10 @@ class __TwigTemplate_fc1d0ff7cf9ae2fd6e17ec3de0ecc6173bd34462f0f78a93ee249bd0f70
         //]]>
     </script>
         ";
-        // line 78
+        // line 119
         echo "
         ";
-        // line 80
+        // line 121
         echo "        <div id=\"grv-personalization-27\"></div>
     <script type='text/javascript'>
         //<![CDATA[
@@ -158,7 +238,7 @@ class __TwigTemplate_fc1d0ff7cf9ae2fd6e17ec3de0ecc6173bd34462f0f78a93ee249bd0f70
         //]]>
     </script>
         ";
-        // line 95
+        // line 136
         echo "
 </div>
 
@@ -171,27 +251,27 @@ class __TwigTemplate_fc1d0ff7cf9ae2fd6e17ec3de0ecc6173bd34462f0f78a93ee249bd0f70
             <div class=\"recommended_articles\">
 
         ";
-        // line 106
+        // line 147
         if ((isset($context["associated_articles"]) ? $context["associated_articles"] : null)) {
-            // line 107
+            // line 148
             echo "
                 <div class=\"ra-header\">Featured:</div>
 
             ";
-            // line 110
+            // line 151
             $context['_parent'] = (array) $context;
             $context['_seq'] = twig_ensure_traversable((isset($context["associated_articles"]) ? $context["associated_articles"] : null));
             foreach ($context['_seq'] as $context["_key"] => $context["values"]) {
-                // line 111
+                // line 152
                 echo "
                 <div class=\"module_wrap\">
                     <div class=\"media\">
                         <a href=\"";
-                // line 114
+                // line 155
                 echo twig_escape_filter($this->env, $this->getAttribute((isset($context["values"]) ? $context["values"] : null), "link"), "html", null, true);
                 echo "\">
                             <img src='";
-                // line 115
+                // line 156
                 echo twig_escape_filter($this->env, $this->getAttribute((isset($context["values"]) ? $context["values"] : null), "filepath"), "html", null, true);
                 echo "' alt='";
                 echo twig_escape_filter($this->env, $this->getAttribute((isset($context["values"]) ? $context["values"] : null), "title"), "html", null, true);
@@ -202,7 +282,7 @@ class __TwigTemplate_fc1d0ff7cf9ae2fd6e17ec3de0ecc6173bd34462f0f78a93ee249bd0f70
                         <div class=\"outer\">
                             <div class=\"inner\">
                                 <a href=\"";
-                // line 121
+                // line 162
                 echo twig_escape_filter($this->env, $this->getAttribute((isset($context["values"]) ? $context["values"] : null), "link"), "html", null, true);
                 echo "\">";
                 echo twig_escape_filter($this->env, $this->getAttribute((isset($context["values"]) ? $context["values"] : null), "title"), "html", null, true);
@@ -219,14 +299,14 @@ class __TwigTemplate_fc1d0ff7cf9ae2fd6e17ec3de0ecc6173bd34462f0f78a93ee249bd0f70
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['values'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 130
+            // line 171
             echo "
         ";
         } else {
-            // line 132
+            // line 173
             echo "
             ";
-            // line 134
+            // line 175
             echo "            <div id=\"grv-personalization-18\"></div>
             <script type=\"text/javascript\">
                 //<![CDATA[
@@ -242,16 +322,16 @@ class __TwigTemplate_fc1d0ff7cf9ae2fd6e17ec3de0ecc6173bd34462f0f78a93ee249bd0f70
                 //]]>
             </script>
             ";
-            // line 149
+            // line 190
             echo "
         ";
         }
-        // line 151
+        // line 192
         echo "
             </div>
 
         ";
-        // line 155
+        // line 196
         echo "        <div id=\"grv-personalization-23\"></div>
         <script type=\"text/javascript\">
             //<![CDATA[
@@ -267,10 +347,10 @@ class __TwigTemplate_fc1d0ff7cf9ae2fd6e17ec3de0ecc6173bd34462f0f78a93ee249bd0f70
             //]]>
         </script>
         ";
-        // line 170
+        // line 211
         echo "
         ";
-        // line 172
+        // line 213
         echo "        <div id=\"grv-personalization-19\"></div>
         <script type=\"text/javascript\">
             //<![CDATA[
@@ -286,7 +366,7 @@ class __TwigTemplate_fc1d0ff7cf9ae2fd6e17ec3de0ecc6173bd34462f0f78a93ee249bd0f70
             //]]>
         </script>
         ";
-        // line 187
+        // line 228
         echo "
     </div>
 
@@ -306,6 +386,6 @@ class __TwigTemplate_fc1d0ff7cf9ae2fd6e17ec3de0ecc6173bd34462f0f78a93ee249bd0f70
 
     public function getDebugInfo()
     {
-        return array (  290 => 187,  274 => 172,  271 => 170,  255 => 155,  250 => 151,  246 => 149,  230 => 134,  227 => 132,  223 => 130,  206 => 121,  195 => 115,  191 => 114,  186 => 111,  182 => 110,  177 => 107,  175 => 106,  162 => 95,  146 => 80,  143 => 78,  127 => 63,  122 => 60,  117 => 58,  112 => 56,  106 => 53,  102 => 52,  84 => 37,  78 => 33,  67 => 30,  64 => 29,  60 => 28,  44 => 15,  39 => 13,  31 => 8,  24 => 4,  19 => 1,);
+        return array (  370 => 228,  354 => 213,  351 => 211,  335 => 196,  330 => 192,  326 => 190,  310 => 175,  307 => 173,  303 => 171,  286 => 162,  275 => 156,  271 => 155,  266 => 152,  262 => 151,  257 => 148,  255 => 147,  242 => 136,  226 => 121,  223 => 119,  207 => 104,  202 => 100,  196 => 96,  184 => 89,  175 => 86,  171 => 85,  167 => 83,  163 => 82,  151 => 75,  147 => 74,  138 => 67,  134 => 66,  129 => 63,  127 => 62,  122 => 60,  117 => 58,  112 => 56,  106 => 53,  102 => 52,  84 => 37,  78 => 33,  67 => 30,  64 => 29,  60 => 28,  44 => 15,  39 => 13,  31 => 8,  24 => 4,  19 => 1,);
     }
 }
