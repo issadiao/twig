@@ -35,6 +35,21 @@ function thr_twig_get_variables($url, $section) {
 
   }
 
+  // add main navigation menu
+  $menu_url = "http://qa.hollywoodreporter.com/thr-api/menu";
+  $menu_json = file_get_contents($menu_url);
+  $menu_code = json_decode($menu_json);
+  foreach ($menu_code->menu as $key => $value) {
+    foreach ($value as $v => $child) {
+        $sub['title'] = $value->title;
+        $sub['path'] = $value->path;
+        $sub[$v] = get_object_vars($child);
+    }
+    $menu[$key] = $sub;
+  }
+
+  $variables['menu'] = $menu;
+
   return $variables;
 
 }

@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03fa5aa5-9cbc-42d8-97b5-d105488b9fde" name="Default" comment="" />
+    <list default="true" id="03fa5aa5-9cbc-42d8-97b5-d105488b9fde" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/29/30/9f1d41aef2bd4ba2cbf5efad5c23f1f92305d76c7d87520e4c780f4becee.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/6c/25/975db9d0e35b88bc552538fac5fc5ea87c50150d55c8f15aaf11397aa152.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/ae/e3/7be742ccf2a2ce1da0e288415b60b0479a5a4d3ff56a37d55078ff94bbb8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/ca/83/2c8186396a48fad0567ea7f358b3ae6731ec6410fe92d072795edf252db0.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/de/6c/76897c09eb5b29d2974c4b1bb09feaa245c87c9ae280c235f27345f7f389.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/fc/1d/0ff7cf9ae2fd6e17ec3de0ecc6173bd34462f0f78a93ee249bd0f70e5b9a.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/fd/58/152089ca388ea13c49b551fce4e655b358ed0803d7ad4cbb8a163f018e46.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.inc" afterPath="$PROJECT_DIR$/functions.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/subtemplates/header.twig" afterPath="$PROJECT_DIR$/templates/subtemplates/header.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/news2.twig" afterPath="$PROJECT_DIR$/templates/news2.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="twig.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +38,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="510">
+            <state line="26" column="0" selection-start="547" selection-end="547" vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -35,12 +47,8 @@
       <file leaf-file-name="news2.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/news2.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="468" selection-end="468" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="450">
-              <folding>
-                <marker date="1400260066000" expanded="true" signature="31:465" placeholder="..." />
-                <marker date="1400260066000" expanded="true" signature="39:92" placeholder="..." />
-                <marker date="1400260066000" expanded="true" signature="100:457" placeholder="..." />
-              </folding>
+            <state line="11" column="35" selection-start="138" selection-end="138" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="450">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -57,16 +65,16 @@
       <file leaf-file-name="functions.inc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="84" selection-start="963" selection-end="963" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="720">
+            <state line="37" column="29" selection-start="1160" selection-end="1160" vertical-scroll-proportion="-23.125" vertical-offset="0" max-vertical-offset="945">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.twig" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="header.twig" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/subtemplates/header.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="92" selection-start="1195" selection-end="1195" vertical-scroll-proportion="-18.083334" vertical-offset="91" max-vertical-offset="975">
+            <state line="54" column="50" selection-start="1921" selection-end="1921" vertical-scroll-proportion="0.4387755" vertical-offset="423" max-vertical-offset="1335">
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#!!top" expanded="true" />
               </folding>
@@ -107,10 +115,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article.twig" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="article.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/subtemplates/article.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="178" column="52" selection-start="7718" selection-end="7718" vertical-scroll-proportion="0.3785961" vertical-offset="2341" max-vertical-offset="3810">
+            <state line="178" column="52" selection-start="7718" selection-end="7718" vertical-scroll-proportion="-111.25" vertical-offset="0" max-vertical-offset="3810">
               <folding />
             </state>
           </provider>
@@ -147,16 +155,16 @@
         <option value="$PROJECT_DIR$/templates/head.twig" />
         <option value="$PROJECT_DIR$/templates/subtemplates/associated_articles.twig" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/templates/subtemplates/header.twig" />
         <option value="$PROJECT_DIR$/templates/subtemplates/footer.twig" />
         <option value="$PROJECT_DIR$/templates/subtemplates/head.twig" />
         <option value="$PROJECT_DIR$/templates/news.twig" />
-        <option value="$PROJECT_DIR$/templates/news2.twig" />
         <option value="$PROJECT_DIR$/templates/subtemplates/header2.twig" />
         <option value="$PROJECT_DIR$/css/custom.css" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/functions.inc" />
         <option value="$PROJECT_DIR$/templates/subtemplates/article.twig" />
+        <option value="$PROJECT_DIR$/templates/news2.twig" />
+        <option value="$PROJECT_DIR$/functions.inc" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/templates/subtemplates/header.twig" />
       </list>
     </option>
   </component>
@@ -355,15 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/subtemplates/header.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="92" selection-start="1195" selection-end="1195" vertical-scroll-proportion="-18.083334" vertical-offset="91" max-vertical-offset="975">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/subtemplates/head.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="41" selection-start="309" selection-end="309" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="360">
@@ -389,14 +388,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/news2.twig">
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="468" selection-end="468" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="450">
-          <folding>
-            <marker date="1400260066000" expanded="true" signature="31:465" placeholder="..." />
-            <marker date="1400260066000" expanded="true" signature="39:92" placeholder="..." />
-            <marker date="1400260066000" expanded="true" signature="100:457" placeholder="..." />
-          </folding>
+        <state line="7" column="30" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2070">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -407,31 +402,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
+    <entry file="file://$PROJECT_DIR$/templates/subtemplates/article.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="30" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2070">
+        <state line="178" column="52" selection-start="7718" selection-end="7718" vertical-scroll-proportion="-111.25" vertical-offset="0" max-vertical-offset="3810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/news2.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="35" selection-start="138" selection-end="138" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="450">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="510">
+        <state line="26" column="0" selection-start="547" selection-end="547" vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="84" selection-start="963" selection-end="963" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="720">
+        <state line="37" column="29" selection-start="1160" selection-end="1160" vertical-scroll-proportion="-23.125" vertical-offset="0" max-vertical-offset="945">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/subtemplates/article.twig">
+    <entry file="file://$PROJECT_DIR$/templates/subtemplates/header.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="52" selection-start="7718" selection-end="7718" vertical-scroll-proportion="0.3785961" vertical-offset="2341" max-vertical-offset="3810">
-          <folding />
+        <state line="54" column="50" selection-start="1921" selection-end="1921" vertical-scroll-proportion="0.4387755" vertical-offset="423" max-vertical-offset="1335">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
